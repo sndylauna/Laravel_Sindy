@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Model
+class Siswa extends Model
 {
     use HasFactory;
-    protected $fillable =['id','barang','stok'];
-    public $timestamps = true;
 
-} 
+    protected $fillable =['id','nama','jeniskelamin','alamat','agama','telepon','email'];
+    public $timestamps = true;
+}
